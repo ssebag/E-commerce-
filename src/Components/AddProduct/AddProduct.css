@@ -1,0 +1,32 @@
+.addProductForm{
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+}
+.addProductForm input, .addProductForm textarea{
+    padding: 15px;
+    border: 1px solid #80808047;
+    border-radius: 5px;
+}
+.addProductForm .main-buttons{
+    margin: 0;
+    width: 80px;
+    height: 40px;
+}
+.addProductForm input{
+    height: 40px;
+    width: calc(100% / 2.1);
+} 
+.addProductForm select{
+    height: 40px;
+    width: calc(100% /3.1);
+    background: none;
+    border: 1px solid #8080803b;
+    padding: 0 15px;
+    border-radius: 5px;
+}  
+.addProductForm input:hover,.addProductForm input:focus{
+   border: 1px solid grey;
+   outline: none;
+} 

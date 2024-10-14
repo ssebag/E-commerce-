@@ -1,0 +1,41 @@
+.sign-form{
+    gap: 40px;
+}
+.form-header{
+    margin: 0 0 24px 0;
+}
+.form-header p{
+    margin-top: 16px;
+    font-size: 12px;
+}
+.sign-form  input{
+    border: none;
+    height: 32px;
+    border-bottom: 1px solid grey;
+}
+.sign-form .main-buttons{
+    width: 143px;
+    margin: inherit;
+}
+.sign-form a{
+    width: max-content;
+    font-size: 12px;
+    color: var(--Red-color);
+}
+@media screen and (max-width:768px){
+    .sign-form{
+        width: 48%;
+    }
+    .form-header h1{
+        font-size: 24px;
+    }
+    .sign-form .main-buttons {
+        width: 124px;
+        height: 46px;
+    }
+}
+@media screen and (max-width:600px){
+    .sign-form{
+        width: 90%;
+    }
+}

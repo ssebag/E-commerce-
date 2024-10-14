@@ -1,0 +1,112 @@
+.navBar{
+  position: relative;
+  padding: 30px 135px 0px 135px;
+}
+.navMainDiv{
+  width: 70%;
+}
+.navMainDiv  .main-buttons {
+    margin:0;
+}
+.ulNav{
+  gap: 40px;
+}
+.ulNav li a{
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.close-mark , .toggle-menu{
+  display: none;
+}
+.navbar-button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: gray;
+}
+.nav-left{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.search-box{
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.search-box input{
+  background-color: #80808029;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+@media screen and (max-width:1200px){
+  .ulNav li a {
+    font-size: 14px;
+  }
+  .ulNav{
+    gap: 12px;
+  }
+  }
+@media screen and (max-width:920px){
+  .navBar{
+    padding:10px ;
+  }
+  .ulNav {
+    flex-direction: column;
+    align-items: start;
+    padding: 25px 0;
+    gap: 20px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+  }
+  .navMainDiv .main-buttons {
+    margin: 10px auto;
+  }
+  .toggle-menu{
+    display: block;
+    cursor: pointer;
+  }
+  .close-mark{
+    display: block;
+    cursor: pointer;
+  }
+  .navMainDiv{
+    display: none;
+  }
+  .toggle {
+   display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background-color: white;
+    width: 256px;
+    border: 1px solid gray;
+    align-items: start;
+}
+  .toggle .navbar-button{
+    margin: 20px auto;
+  }
+  .toggle li {
+    margin: 0 auto;
+  }
+  @media screen and (max-width:555px){
+    .search-box input{
+      display: none;
+    }
+    .search-icon{
+      position: static;
+    }
+  }
+}

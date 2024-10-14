@@ -1,0 +1,44 @@
+footer{
+  background: Black;
+  color: white;
+  padding: 80px 135px 0 135px;
+}
+.footer-up{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.footer-col{
+  gap: 30px;
+}
+.footer-title{
+  font-weight: 800;
+  font-size: 18px;
+}
+.footer-details{
+    font-size: 14px;
+}
+.footer-down{
+  text-align: center;
+  padding: 15px;
+}
+footer input{
+  width: 200px;
+  height: 38px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+@media screen and (max-width: 992px){
+    footer{
+     padding: 40px;
+    }
+ }
+@media screen and (max-width: 768px){
+    .footer-up{
+    flex-direction: column;
+    gap: 30px;
+   }
+}

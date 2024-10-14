@@ -1,0 +1,36 @@
+.ourHistory{
+  display: flex;
+  justify-content: space-between;
+}
+.ourHistory .container {
+  padding: 40px 0px 30px 135px;
+}
+.our-hestory-description{
+  width: 45%;
+  padding: 60px 0;
+  gap: 30px;
+}
+.our-hestory-description h1{
+    font-size: 50px;
+}
+.our-hestory-img{
+    width: 45%;
+}
+.our-hestory-img img{
+    width: 100%;
+}
+@media screen and (max-width:992px){
+    .ourHistory .container {
+        flex-direction: column-reverse;
+    }
+    .our-hestory-description {
+        width: 100%;
+        padding: 20px 0;
+        gap: 12px;
+    }
+} 
+@media screen and (max-width:992px){
+    .our-hestory-description h1 {
+        font-size: 35px;
+    }
+}

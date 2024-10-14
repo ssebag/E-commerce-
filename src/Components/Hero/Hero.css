@@ -1,0 +1,81 @@
+.hero{
+    height: calc(100vh - 90px);
+}
+.hero .container{
+    justify-content: space-between;
+}
+.hero-sections{
+  width: 20%;
+  border-right: 1px solid #80808029;
+  height: max-content;
+}
+.hero-sections ul{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.hero-sections ul li a{
+   cursor: pointer; 
+   padding-bottom: 10px;
+   font-size: 22px;
+   font-weight: 500;
+   border-bottom: 1px solid #8080801c;
+   font-family: "Edu NSW ACT Foundation", cursive;
+}
+.hero-img{
+  width: 70%;
+  display: flex;
+  align-items: start;
+  padding: 40px 135px 10px 40px;
+}
+.hero-slider{
+  background: black;
+}
+.hero-slider-left{
+  color: white;
+  width: 290px;
+  padding: 0 49px;
+  gap: 20px;
+}
+.apple-icon{
+    gap: 15px;
+}
+@media screen and (max-width: 1220px) {
+    .hero {
+        height: auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    .hero .container{
+        padding: 0;
+    }
+    .hero-sections{
+        display: none;
+    }
+    .hero-img {
+        width: 100%;
+        padding: 0;
+    }
+    .hero-slider-left {
+        padding: 40px 20px;
+        width: 50%;
+    }
+    .hero-slider-left h1{
+        font-size: 24px;
+    }
+    .hero-slider-img {
+        width: 50%;
+    }   
+    .apple-icon img{
+            width: 20px;
+    } 
+    .hero-slider-left p{
+        font-size: 12px;
+    }
+    .hero-slider {
+        width: 100%;
+    }    
+
+}

@@ -1,0 +1,30 @@
+.contact .call-me{
+    min-width: 340px;
+}
+.contact .call-me{
+    justify-content: space-around;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 17px 4px #8080807a;
+    height: 500px;
+    gap: 50px;
+}
+.contact .call-to-us{
+    gap: 24px;
+}
+.contact .call-header{
+    gap: 10px;
+}
+.contact  .call-header svg{
+    background: var(--Red-color);
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+}
+.contact .call-header-title{
+    font-weight: 700;
+}
+@media screen and (max-width: 768px){
+    .contact .call-me{
+        width: 100%;   
+    }
+}

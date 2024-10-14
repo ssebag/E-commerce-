@@ -1,0 +1,37 @@
+.aboutIcons .category-card{
+    width: 260px;
+    gap: 15px;
+    height: 200px;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+.aboutIcons .container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.aboutIcons .category-card img{
+  background: black;
+  border-radius: 50%;
+  padding: 6px;
+  border: 8px solid gray;
+}
+.aboutIcons .category-card .category-title{
+    font-weight: 800;
+    font-size: 24px;
+}
+@media screen and (max-width:992px) {
+    .aboutIcons .category-card {
+        width: 200px;
+      }
+      .aboutIcons .category-card .category-des{
+        font-size: 12px;
+    }  
+}
+@media screen and (max-width:768px) {
+    .aboutIcons .container{
+        flex-direction: column;
+        row-gap: 20px;
+  }   
+}

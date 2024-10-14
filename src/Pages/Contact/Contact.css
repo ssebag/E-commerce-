@@ -1,0 +1,13 @@
+.contact .container{
+    gap: 10px
+}
+@media screen and (max-width: 1200px){
+    .contact .container {
+       padding: 40px 15px 10px 15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .contact .container{
+        flex-wrap: wrap;
+    }
+}
