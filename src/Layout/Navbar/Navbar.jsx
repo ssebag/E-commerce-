@@ -1,4 +1,3 @@
-import './NavBar.css'
 import React, { useState } from "react"
 import NavItems from './NavbarItem'
 import './Navbar.css'
@@ -27,7 +26,9 @@ export default function NavBar() {
          <i className='fa-solid fa-xmark'></i>
        </a>  
         <NavItems navClass={"nav-items"}/>
-        <button className='main-buttons'>Dashboard</button>
+        <Link to={"/dashboard"}>
+           <button className='main-buttons'>Dashboard</button>
+        </Link>
       </div>
 
         <a className='toggle-menu' onClick={Toggle}>
